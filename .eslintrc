@@ -1,0 +1,7 @@
+{
+  "extends": ["standard"],
+  "plugins": ["react"],
+  "ecmaFeatures": {
+    "jsx": true
+  }
+}

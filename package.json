@@ -1,0 +1,44 @@
+{
+  "name": "berb",
+  "version": "0.1.0",
+  "description": "Babel + Electron + React + Browserify application stack",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulpino/berb.git"
+  },
+  "author": "vulpino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vulpino/berb/issues"
+  },
+  "homepage": "https://github.com/vulpino/berb#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "electron-prebuilt": "^0.36.8",
+    "eslint": "^2.2.0",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-config-standard-jsx": "^1.1.1",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint-plugin-react": "^4.0.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "event-stream": "^3.3.2",
+    "glob": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-shell": "^0.5.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "request": "^2.69.0"
+  }
+}
