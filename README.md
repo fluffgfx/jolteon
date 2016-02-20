@@ -3,7 +3,7 @@ Babel + Electron + React + Browserify + Sass application stack
 
 ## How to get started
 
-Install the [berbs CLI](https://github.com/vulpino/berbs-cli):
+Install the [berbs CLI](https://github.com/vulpino/berbs-cli):  
 `npm install -g berbs`   
 `berbs new`
 
