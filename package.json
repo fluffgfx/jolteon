@@ -1,5 +1,5 @@
 {
-  "name": "berb",
+  "name": "jolteon",
   "version": "0.1.0",
   "description": "Babel + Electron + React + Browserify application stack",
   "main": "build/index.js",
@@ -19,6 +19,7 @@
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
+    "electron-connect": "^0.3.7",
     "electron-prebuilt": "^0.36.8",
     "eslint": "^2.2.0",
     "eslint-config-standard": "^5.1.0",
@@ -29,11 +30,15 @@
     "event-stream": "^3.3.2",
     "glob": "^7.0.0",
     "gulp": "^3.9.1",
+    "gulp-atom-electron": "^1.4.0",
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^2.0.0",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
     "gulp-sass": "^2.2.0",
-    "gulp-shell": "^0.5.2",
+    "gulp-symdest": "^1.0.0",
+    "gulp-useref": "^3.0.6",
+    "gulp-vinyl-zip": "^1.1.2",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
