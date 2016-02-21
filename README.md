@@ -1,5 +1,9 @@
 # Jolteon
+![jolteon](http://cdn.bulbagarden.net/upload/c/c1/Spr_5b_135.png)
+
 Babel + Electron + React + Browserify + Sass application stack. Gets the stupid work done so you can actually make something.
+
+![moving picture](http://i.imgur.com/WkZ19h9.gif)
 
 ## What stupid work, exactly?
 
