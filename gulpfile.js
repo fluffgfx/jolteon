@@ -41,7 +41,7 @@ gulp.task('build-client', (done) => {
 
     tasks.concat(files.map((entry) => {
       return gulp.src(entry)
-        .pipe(gulp.dest('./build/client'))
+        .pipe(gulp.dest('./build'))
     }))
   })
 
@@ -66,13 +66,13 @@ gulp.task('build', ['build-client', 'build-server'])
 
 gulp.task('watch-client', () => {
   gulp.watch('./app/**/*', ['build-client'], (e) => {
-    console.log('File ' + e.path + ' was ' + e.type + ', rebuilding...')
+    console.log('Client file ' + e.path + ' was ' + e.type + ', rebuilding...')
   })
 })
 
 gulp.task('watch-server', () => {
   gulp.watch('./src/**/*', ['build-server'], (e) => {
-    console.log('File ' + e.path + ' was ' + e.type + ', rebuilding...')
+    console.log('Server file ' + e.path + ' was ' + e.type + ', rebuilding...')
   })
 })
 
