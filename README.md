@@ -13,10 +13,18 @@ Babel + Electron + React + Browserify + Sass application stack. Gets the stupid 
 
 ## How to get started
 
-- `npm install -g gulp-cli electron-prebuilt`
-- `git clone https://github.com/vulpino/jolteon`
-- `cd jolteon`
-- `npm install`
+The specialized `git clone` command and following `rm -rf .git` ensure that the git history of jolteon is not replicated so that you can enter your new jolteon project and `git init` a new project with new remotes, new history, etc. `gulp-cli` is required to run gulp and `electron-prebuilt` is installed to be able to test your project locally without `gulp package` every time (via `gulp serve`).
+
+You may also want to `rm -rf` this README.md after you're all set up and replace it with the README for your project.
+
+```
+npm install -g gulp-cli electron-prebuilt
+git clone --depth=1 --branch=master https://github.com/vulpino/jolteon my-jolteon-project
+cd my-jolteon-project
+rm -rf .git
+npm install
+gulp serve
+```
 
 ### If you're on windows...
 
