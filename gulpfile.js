@@ -4,8 +4,6 @@
   Hello!
   It is unlikely that you should touch this Gulpfile. If you want to, however, I can't stop you. I'm not there!
   Here's some things you can do if you'd like:
-  - If you want to update the electron version, simply change `const electronVersion`. It's right down there, under
-    all my unsorted and probably unneeded requires!
   - If you want to brand your app, you'll want to update the `gulp package-osx`, `gulp package-windows`, and
     `gulp package-linux` tasks. You can find documentation for the electronPackager() function at the github repo
     joaomoreno/gulp-atom-electron. There are a few basic branding things you can do there.
@@ -29,7 +27,7 @@ const electronPackager = require('gulp-atom-electron')
 const symdest = require('gulp-symdest')
 const zip = require('gulp-vinyl-zip')
 
-const electronVersion = '0.36.8'
+const electronVersion = require("electron-prebuilt/package.json").version
 
 /* These are the building tasks! */
 
