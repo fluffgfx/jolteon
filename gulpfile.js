@@ -36,7 +36,11 @@ gulp.task('build-client-bundles', (done) => {
     if (err) done(err)
 
     let tasks = files.map((entry) => {
-      return browserify({ entries: [entry] })
+      return browserify({
+        entries: [entry],
+        ignoreMissing: true,
+        detectGlobals: false
+      })
         .transform('babelify', { presets: [ 'es2015', 'react' ] })
         .bundle()
         .pipe(source(entry))
