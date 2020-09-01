@@ -1,12 +1,15 @@
-module.exports = React.createClass({
-  getInitialState () {
-    let shiny = ((Math.random() * 8192) > 8191)
-    let image = shiny ? 'assets/sprite_shiny.png' : 'assets/sprite.png'
-    return {
+const React = require('react')
+
+module.exports = class Index extends React.Component {
+  constructor (props) {
+    super(props)
+    const shiny = ((Math.random() * 8192) > 8191)
+    const image = shiny ? 'assets/sprite_shiny.png' : 'assets/sprite.png'
+    this.state = {
       shiny: shiny,
       image_src: image
     }
-  },
+  }
 
   render () {
     return (
@@ -17,4 +20,4 @@ module.exports = React.createClass({
       </div>
     )
   }
-})
+}
