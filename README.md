@@ -3,7 +3,7 @@
 
 Babel + Electron + React + Browserify + Sass application stack. Gets the stupid work done so you can actually make something.
 
-![moving picture](http://i.imgur.com/WkZ19h9.gif)
+![Example Moving Pic](https://i.postimg.cc/QdLW7VX5/Jolteon.gif)
 
 ## What stupid work, exactly?
 
